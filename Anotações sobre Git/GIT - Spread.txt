@@ -1,0 +1,25 @@
+spread GIT
+
+comando básicos do terminal:
+cd - para acessar um local
+cd .. - para voltar a um local
+cls - para limpar o terminal
+dir - para acessar os conteudos de uma pagina
+delete- para excluir coisas de dentro de uma pasta
+rd /s /q - para excluir a pasta inteira
+mkdir - cria uma nova pasta (diretorio)
+echo - vai apresentar a string no terminal
+
+SHA - algoritmo de encriptação (algoritmo de hash seguro)
+
+objetos do GIT:
+*BLOBS- contém metadados (tipo do objeto, tamanho da string, etc), contém sha1 do arquivo
+*TREES- armazenam Blobs e commits. contém metadados e guarda o nome do arquivo. Monta a estrutura de onde estão localizados os blobs (arquivos). contém sha1 de cada árvore
+*COMMITS- aponta para uma arvore, para o ultimo commit antes dele, aponta para um autor e para uma mensagem. Mostra tudo. Possuem sha1 dos metadados.
+
+*arquivos são blobs, pastas são árvores*
+
+SSH- uma chave que de forma segura e encriptografada estabelece uma conexão entre duas máquinas
+TOKEN- parecido com uma senha, coloca o nickname e no lugar da senha coloca o token
+
+
